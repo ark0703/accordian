@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  background: rgb(36, 0, 0);
+  background: linear-gradient(
+    22deg,
+    rgba(36, 0, 0, 1) 0%,
+    rgba(121, 9, 96, 1) 26%,
+    rgba(0, 255, 214, 1) 76%
+  );
+  background-repeat: repeat-y;
+  background-position: cover;
+  height: 100vh;
+  width: 100%;
+}
